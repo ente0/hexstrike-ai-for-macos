@@ -52,3 +52,5 @@ scan_results/
 output/
 reports/
 loot/
+
+hexstrike*.log
