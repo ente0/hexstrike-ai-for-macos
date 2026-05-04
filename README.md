@@ -215,13 +215,11 @@ Edit `~/.config/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "hexstrike-ai": {
-      "command": "python3",
+      "command": "hexstrike_mcp",
       "args": [
-        "/path/to/hexstrike-ai/hexstrike_mcp.py",
         "--server",
         "http://localhost:8888"
       ],
-      "description": "HexStrike AI v6.0 - Advanced Cybersecurity Automation Platform",
       "timeout": 300,
       "disabled": false
     }
