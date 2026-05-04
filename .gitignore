@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+hexstrike-env/
+hexstrike_env/
+
+# pipx
+.local/
+
+# Logs
+*.log
+logs/
+/tmp/hexstrike.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Security / secrets
+.env
+*.key
+*.pem
+*.crt
+*.p12
+config/secrets.*
+
+# HexStrike runtime
+*.session
+*.cache
+scan_results/
+output/
+reports/
+loot/
