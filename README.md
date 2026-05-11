@@ -115,7 +115,7 @@ graph TD
 ```bash
 # 1. Clone the repository
 git clone https://github.com/ente0/hexstrike-ai-for-macos
-cd hexstrike-ai
+cd hexstrike-ai-for-macos
 
 # 2. Install with pipx
 pipx install . --force
